@@ -1,0 +1,9 @@
+<resources>
+    <color name="bg_dark">#121212</color>
+    <color name="accent">#00E5A0</color>
+    <color name="accent_locked">#555555</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="target_color">#FF5252</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

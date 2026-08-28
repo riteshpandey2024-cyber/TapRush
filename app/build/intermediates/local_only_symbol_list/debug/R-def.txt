@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color accent_locked
+color bg_dark
+color black
+color ic_launcher_background
+color target_color
+color text_light
+color white
+drawable ic_launcher_foreground
+id btnLevel1
+id btnLevel2
+id btnLevel3
+id btnReset
+id btnTarget
+id playArea
+id tvLevelTitle
+id tvScore
+id tvTimer
+layout activity_game
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.LevelGame
