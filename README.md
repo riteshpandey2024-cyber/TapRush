@@ -3,6 +3,16 @@
 A simple tap-the-moving-target game with 3 levels, per-level countdown timers,
 and level-unlock progression saved on the device.
 
+## How the game works
+- **Level 1**: tap the target 10 times within 30 seconds.
+- **Level 2**: tap the target 15 times within 25 seconds. Locked until Level 1 is won.
+- **Level 3**: tap the target 20 times within 20 seconds. Locked until Level 2 is won.
+- Progress (which levels are unlocked) is saved with `SharedPreferences`, so it
+  persists even after closing the app. Use the "Reset Progress" button on the
+  home screen to start over.
+
+You can change the difficulty/timing per level by editing `levelConfig` in
+`GameActivity.kt`.
 
 --- 
 
@@ -83,16 +93,6 @@ Level 3 — Unlocked
 Game Completed
 ```
 
-## How the game works
-- **Level 1**: tap the target 10 times within 30 seconds.
-- **Level 2**: tap the target 15 times within 25 seconds. Locked until Level 1 is won.
-- **Level 3**: tap the target 20 times within 20 seconds. Locked until Level 2 is won.
-- Progress (which levels are unlocked) is saved with `SharedPreferences`, so it
-  persists even after closing the app. Use the "Reset Progress" button on the
-  home screen to start over.
-
-You can change the difficulty/timing per level by editing `levelConfig` in
-`GameActivity.kt`.
 
 ## How to open and build the APK
 
